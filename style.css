@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  padding: 10rem;
+  font-family: 'Spartan', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5rem;
+}
+
+.main__left {
+  max-width: 400px;
+}
+
+.main__title {
+  color: #502050;
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.main__content {
+  color: #937b92;
+}
+
+.main__ratings {
+  min-width: 600px;
+}
+
+.main__ratings__block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  color: #502050;
+  font-size: 13px;
+  padding: 17px;
+  margin: 12px;
+  width: 430px;
+  background-color: #d0c8cf;
+  border-radius: 13px;
+}
+
+#main__ratings__block--2 {
+  margin-left: 60px;
+}
+
+#main__ratings__block--3 {
+  margin-left: 110px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 90px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 30px;
+}
+
+.card {
+  background-color: #502050;
+  color: white;
+  padding: 20px 25px;
+  width: 350px;
+  height: 270px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+.card--1 {
+  margin-top: 40px;
+}
+
+.card--2 {
+  margin-top: 80px;
+}
+
+.card__img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.card__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.card__top__title {
+  padding-bottom: 10px;
+}
+
+.card__top__content {
+  color: #ee68a4;
+}
+
+.card__content {
+  line-height: 2;
+  margin-bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */
